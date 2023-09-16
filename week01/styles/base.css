@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #7afdd6;
+    background-color: #330c2f;
     padding: 25px;
 }
 
@@ -21,7 +21,7 @@ h1 {
 }
 
 nav {
-	background-color: #77ff94;
+	background-color: #7b287d;
 	margin: 0 auto;
 	max-width: 1080px;
 }
@@ -43,12 +43,30 @@ nav a:hover {
 }
 
 .card {
-    border: 1px solid #77ff94;
+    border: 1px solid #7b287d;
     margin: 10px;
-    padding: 5px;
-    text-align: center;
+    padding: 25px;
 }
 
 h2 {
-    color: #77ff94;
+    color: #7b287d;
+    text-align: center;
+}
+
+h3 {
+    list-style-type: circle;
+}
+
+#primary-color {
+    background-color: #330c2f;
+    color: #fff;
+}
+
+#secondary-color {
+    background-color: #7b287d;
+    color: #fff;
+}
+
+#accent-color {
+    background-color: #7067cf;
 }
