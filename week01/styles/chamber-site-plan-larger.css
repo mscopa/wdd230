@@ -1,0 +1,15 @@
+@media (min-width: 480px) {
+	nav ul {
+		display: flex;
+	}
+	nav ul li {
+		flex: 1 1 100%;
+	}
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    h2, hr {
+        grid-column: 1 / 3;
+    }
+}
