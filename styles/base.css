@@ -17,6 +17,16 @@ header {
     justify-content: center;
     background-color: coral;
     padding: 1rem;
+    position: relative;
+}
+
+#darkBtn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 24px;
+    cursor: pointer;
+
 }
 
 header span {
@@ -24,11 +34,35 @@ header span {
     font-size: 2rem;
 }
 
+#menu {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 3px 7px 6px;
+	background-color: #eee;
+	color: #000;
+    position: relative;
+    left: 5%;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "X";
+}
+
 nav {
 	background-color: #36454f;
 }
 
 nav ul {
+	list-style-type: none;
+    padding-left: 0px;
+}
+
+nav ul li {
+    display: none;
 	list-style-type: none;
     padding-left: 0px;
 }
@@ -46,11 +80,20 @@ nav a:hover {
 	background-color: blanchedalmond;
 }
 
+.open li {
+	display: block;
+	width: 100%;
+}
+.open li a {
+	display: block;
+}
+
 .active {
 	color: yellow;
 }
 
 h1 {
+    margin: 1rem;
     border-bottom: 1px solid;
 }
 

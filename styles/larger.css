@@ -3,11 +3,16 @@
         max-width: 992px;
     }
     
+    #menu {
+        display: none;
+    }
+
     nav ul {
 		display: flex;
 	}
 	
     nav ul li {
+        display: block;
 		flex: 1 1 100%;
 	}
 
