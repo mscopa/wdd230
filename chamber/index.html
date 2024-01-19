@@ -11,19 +11,66 @@
     <meta property="og:url" content="https://mscopa.github.io/wdd230/chamber/" />
     <meta property="og:image" content="" />
     <link rel="icon" href="../favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Palanquin:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-
+        <img src="images/logo.png" alt="">
+        <h1>SZO Chamber Of Commerce Site Plan</h1>
     </header>
+    <button id="menu"></button>
     <nav>
-
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Discover</a></li>
+            <li><a href="">Directory</a></li>
+            <li><a href="">Join</a></li>
+        </ul>
     </nav>
     <main>
-
+        <section class="hero-image">
+            <img src="images/hero-image-lg.png" alt="">
+            <button class="joinBtn">Join the Chamber!</button>
+        </section>
+        <section class="card current-event">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ullam eius eligendi. Repudiandae, magnam pariatur? Consequuntur aperiam, officia, ea numquam veniam iure beatae enim pariatur excepturi quasi, hic possimus nulla.</p>
+        </section>
+        <section class="card weather">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ullam eius eligendi. Repudiandae, magnam pariatur? Consequuntur aperiam, officia, ea numquam veniam iure beatae enim pariatur excepturi quasi, hic possimus nulla.</p>
+        </section>
+        <section class="card spotlight1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ullam eius eligendi. Repudiandae, magnam pariatur? Consequuntur aperiam, officia, ea numquam veniam iure beatae enim pariatur excepturi quasi, hic possimus nulla.</p>
+        </section>
+        <section class="card spotlight2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ullam eius eligendi. Repudiandae, magnam pariatur? Consequuntur aperiam, officia, ea numquam veniam iure beatae enim pariatur excepturi quasi, hic possimus nulla.</p>
+        </section>
+        <section class="card spotlight3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ullam eius eligendi. Repudiandae, magnam pariatur? Consequuntur aperiam, officia, ea numquam veniam iure beatae enim pariatur excepturi quasi, hic possimus nulla.</p>
+        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="footer-address">
+            <img src="images/logo.png" alt="">
+            <p>SZO</p>
+            <p>Chamber of Commerce</p>
+            <p>False Street 123</p>
+            <p>Ituzaingo, Buenos Aires</p>
+        </div>
+        <div class="footer-contact">
+            <p>(+54) 9 11 2345 6789</p>
+            <p>info@szo.org</p>
+            <p>Location Map</p>
+        </div>
+        <div class="footer-info">
+            <p>&copy;<span id="year">2024</span> | Mauro Sebastian Copa | WDD 230 Project | <span id="lastModified"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburguer.js"></script>
 </body>
 </html>

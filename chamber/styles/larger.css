@@ -1,0 +1,44 @@
+@media only screen and (min-width : 480px) {
+    header, nav, main, footer {
+        max-width: 992px;
+    }
+
+    header {
+        margin: 0 auto;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    nav {
+        margin: 0 auto;
+    }
+
+    nav ul {
+		display: flex;
+	}
+
+	nav ul li {
+		flex: 1 1 100%;
+	}
+
+    .joinBtn {
+        right: 2.5rem;
+        bottom: 2.5rem;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .hero-image {
+        grid-column: 1 / 4;
+    }
+
+    .current-event {
+        grid-column: 1 / 3;
+    }
+
+
+}
