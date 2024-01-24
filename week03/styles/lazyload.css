@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 860px;
+    margin: auto;
+    width: auto;
+}
+
+header {
+    text-align: center;
+    background-color: aqua;
+}
+
+main {
+    width: 400px;
+    margin: auto;
+    display: block;
+}
+
+footer {
+    color: black;
+    text-align: center;
+    font-size: large;
+    padding: 1.5rem;
+    background-color: aqua;
+}
+
+img {
+    width: 100%;
+    background-color: #000;
+    animation: fade 15s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
