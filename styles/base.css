@@ -40,7 +40,7 @@ header span {
 	background-color: #eee;
 	color: #000;
     position: relative;
-    left: 5%;
+    top: 2rem;
 }
 
 #menu::before {
@@ -91,12 +91,34 @@ nav a:hover {
 	color: yellow;
 }
 
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.herolabel {
+	position: absolute;
+    font-size: x-small;
+    top: 1rem;
+    right: 1rem;
+	background: radial-gradient(#fff, #4D5B97);
+	border: 1px solid rgba(0,0,0,.75);
+    padding: 0.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+}
+
 h1 {
     margin: 1rem;
     border-bottom: 1px solid;
 }
 
 .card {
+    text-align: center;
     margin: 1rem;
     border-radius: 5px;
     border: 1px solid #bdbdbd;
@@ -112,7 +134,17 @@ h1 {
 }
 
 .card ul li {
+    text-align: left;
+    list-style-type: none;
     padding: 5px;
+}
+
+.card p {
+    margin-top: 2.5rem;
+}
+
+iframe {
+    width: 100%;
 }
 
 footer {

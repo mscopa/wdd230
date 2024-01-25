@@ -21,7 +21,22 @@
         grid-template-columns: 2fr 1fr;
     }
 
+    .hero {
+        grid-column: 1 / 4;
+    }
+
+    .herolabel {
+        font-size: large;
+        top: 30px;
+        right: 30px;
+        padding: 1.5rem;
+    }
+
     h1 {
+        grid-column: 1 / 4;
+    }
+
+    iframe {
         grid-column: 1 / 4;
     }
 }
