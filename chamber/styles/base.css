@@ -7,7 +7,7 @@ body {
     font-weight: 200;
 }
 
-header, main, footer {
+main, footer {
     margin: 1rem auto;
 }
 
@@ -16,19 +16,20 @@ header {
     color: #fff;
     background-color: #330c2f;
     align-items: center;
-    justify-content: center;
-    padding: 1.5rem;
-    width: 100%;
+    justify-content: space-around;
+    position: relative;
+}
+
+header img {
+    margin: 0 1rem;
 }
 
 #menu {
-	font-size: 1.5rem;
+	font-size: 0.5rem;
 	border: 1px solid rgba(0,0,0,.3);
 	padding: 3px 7px 6px;
 	background-color: #eee;
 	color: #000;
-    position: relative;
-    left: 5%;
 }
 
 #menu::before {
@@ -45,6 +46,8 @@ nav {
 }
 
 nav ul {
+    margin: 0;
+    padding: 0;
 	list-style-type: none;
 }
 
@@ -100,11 +103,44 @@ main {
 }
 
 footer {
+    text-align: center;
     padding: 1rem;
-    display: grid;
     color: #fff;
     background-color: #330c2f;
-    grid-template-columns: 1fr 1fr;
+}
+
+
+/* discover document */
+
+.social-media {
+    text-align: center;
+}
+
+.sidebar {
+    position: relative;
+}
+
+.sidebar img {
+    width: 100%;
+    height: auto;
+}
+
+.sidebar__content {
+    margin: 1rem;
+    padding: 5px;
+    border: #000 solid 1px;
+}
+
+.gallery {
+    position: relative;
+    margin: 1rem;
+    padding: 5px;
+    border: #000 solid 1px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
 }
 
 footer p {
@@ -112,8 +148,5 @@ footer p {
 }
 
 footer .footer-info {
-    grid-column: 1 / 3;
     text-align: center;
 }
-
-
