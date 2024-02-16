@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mauro Sebastian Copa - WDD230 - Web Frontend Development</title>
+    <meta name="description" content="This is the course assignment portal for my assignments in the course WDD 230 - Web Frontend Development for the student Mauro Sebastian Copa.">
+    <meta name="author" content="Mauro Sebastian Copa">
+    <meta property="og:title" content="Mauro Sebastian Copa - WDD 230 - Web Frontend Development" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://mscopa.github.io/wdd230/" />
+    <meta property="og:image" content="https://www.miituzaingo.gov.ar/sites/default/files/2019-10/Pque%20Leloir%20%284%29.jpg" />
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/dark.webp" alt="dark-mode" id="darkBtn">
+        <img src="images/profile.webp" alt="Mauro Copa Profile">
+        <span>Mauro Sebastian Copa</span>
+        <button id="menu"></button>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+            <li><a href="form.html">Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Rate us!</h1>
+        <form action="record.html" method="get">
+            <div id="formMessage"></div>
+            <fieldset>
+                <label>Username <input type="text" name="fname" id="fname" required></label>
+                <label>Password <input type="password" name="kp1" id="kp1" pattern="[a-zA-Z0-9]+.{8,}" required></label>
+                <label>Repeat Password <input type="password" name="kp2" id="kp2" pattern="[a-zA-Z0-9]+.{8,}" required></label>
+                <label>Email <input type="email" name="email" id="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address." required></label>
+                <label for="r">Page Rating 
+                    
+                    <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+                    <datalist id="rangevalues">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </datalist>
+                    <div id="rangevalue">Your rate: 0</div>
+                </label>
+            </fieldset>
+            <input type="submit" value="Rate our page" class="submitBtn">
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span id="year"></span> - Mauro Sebastian Copa - Buenos Aires, Argentina</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/form.js"></script>
+</body>
+</html>

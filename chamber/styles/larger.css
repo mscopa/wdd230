@@ -50,7 +50,7 @@
         text-align: center;
     }
 
-    /* discover document */
+    /* discover page */
     .sidebar {
         grid-column: 1 / 2;
     }
@@ -61,5 +61,49 @@
 
     .gallery img:hover {
         box-shadow: 0 0 50px #333;
+    }
+
+    /* join page */
+    form {
+        grid-column: 1 / 2;
+        margin: 0 1rem;
+    }
+    
+    table {
+        display: inline-block;
+        grid-column: 2 / 4;
+        margin: 0 2rem;
+        border: 1px solid #7067cf;
+    }
+
+    caption {
+        caption-side: bottom;
+        color: #7067cf;
+    }
+    
+    tr th {
+        color: #fff;
+        background-color: #7b287d;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    th, td {
+        width: 100%;
+        color: #7067cf;
+        padding: 7px 15px;
+        border: 1px solid #7067cf;
+    }
+
+    td {
+        font-size: 1.5rem;
+        height: 12rem;
+        text-align: center;
+    }
+
+    th span.subtitle {
+        color: gray;
     }
 }

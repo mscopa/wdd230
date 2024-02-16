@@ -110,7 +110,7 @@ footer {
 }
 
 
-/* discover document */
+/* discover page */
 
 .social-media {
     text-align: center;
@@ -150,3 +150,58 @@ footer p {
 footer .footer-info {
     text-align: center;
 }
+
+/* join page */
+
+form {
+    grid-column: 1 / 4;
+    width: 100%;
+}
+
+form h2 {
+    text-align: center;
+}
+
+form label input, form label select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #7067cf;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #7067cf;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    width: 100%;
+}
+
+form legend {
+    color: #330c2f;
+    margin: 0 1rem;
+    padding: 0 0.5rem;
+}
+
+form label {
+    display: block;
+    color: #7b287d;
+    padding-top: 1rem;
+}
+
+form label[for="timestamp"] {
+    display: none;
+}
+
+form input[type="submit"] {
+    color: #fff;
+    background-color: #7b287d;
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+table {
+    display: none;
+}
+
