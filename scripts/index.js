@@ -46,7 +46,6 @@ async function apiFetch() {
         if (response.ok) {
             const data = await response.json();
             displayResults(data);
-			console.table(data);
         }
         else {
             throw Error(await response.text());
