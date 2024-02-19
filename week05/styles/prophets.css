@@ -1,0 +1,25 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: blueviolet;
+}
+
+#cards {
+    border: 1px solid #2f2f2f;
+    background-color: rgba(174, 82, 187, 0.1);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+#cards section {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #2f2f2f;
+    justify-content: center;
+    background-color: rgba(174, 82, 187, 0.3);
+}
+
+section img {
+    width: 240px;
+    height: 300px;
+}
