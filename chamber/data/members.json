@@ -5,7 +5,7 @@
             "address": "Yrigoyen 225, Morón",
             "phone": "1123456789",
             "url": "www.tidytreasures.com",
-            "icon": "https://mscopa.github.io/wdd230/chamber/images/store-2-large.webp",
+            "icon": "https://mscopa.github.io/wdd230/chamber/images/store-1-logo.png",
             "level": "NP Membership",
             "other": "other"
         },
@@ -14,7 +14,7 @@
             "address": "La pialada 663, Ituzaingó",
             "phone": "1198765432",
             "url": "www.luxiria.com",
-            "icon": "https://mscopa.github.io/wdd230/chamber/images/store-2-large.webp",
+            "icon": "https://mscopa.github.io/wdd230/chamber/images/store-2-logo.png",
             "level": "gold",
             "other": "other"
         },
@@ -23,7 +23,7 @@
             "address": "La ferrere 799, La Matanza",
             "phone": "1122334455",
             "url": "www.nestorstore.com",
-            "icon": "https://mscopa.github.io/wdd230/chamber/images/store-2-large.webp",
+            "icon": "https://mscopa.github.io/wdd230/chamber/images/store-3-logo.png",
             "level": "gold",
             "other": "other"
         },
@@ -32,7 +32,7 @@
             "address": "Carlos Paz 1167, Haedo",
             "phone": "1133445566",
             "url": "www.nextbiz.com",
-            "icon": "https://mscopa.github.io/wdd230/chamber/images/store-2-large.webp",
+            "icon": "https://mscopa.github.io/wdd230/chamber/images/store-4-logo.png",
             "level": "Bronze",
             "other": "other"
         },
@@ -41,7 +41,7 @@
             "address": "General Blanco 2561, El Palomar",
             "phone": "1199887744",
             "url": "www.bonsale.com",
-            "icon": "https://mscopa.github.io/wdd230/chamber/images/store-2-large.webp",
+            "icon": "https://mscopa.github.io/wdd230/chamber/images/store-5-logo.png",
             "level": "Bronze",
             "other": "other"
         },
@@ -50,7 +50,7 @@
             "address": "General Carrasco 981, San Antonio de Padua",
             "phone": "1158211849",
             "url": "www.coinvault.com",
-            "icon": "https://mscopa.github.io/wdd230/chamber/images/store-2-large.webp",
+            "icon": "https://mscopa.github.io/wdd230/chamber/images/store-6-logo.png",
             "level": "Silver",
             "other": "other"
         },
@@ -59,7 +59,7 @@
             "address": "Florentino 1699, Moreno",
             "phone": "1158211849",
             "url": "www.valorium.com",
-            "icon": "https://mscopa.github.io/wdd230/chamber/images/store-2-large.webp",
+            "icon": "https://mscopa.github.io/wdd230/chamber/images/store-7-logo.png",
             "level": "gold",
             "other": "NP Membership"
         }

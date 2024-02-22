@@ -106,4 +106,18 @@
     th span.subtitle {
         color: gray;
     }
+
+    /* DIRECTORY PAGE */
+    .buttons {
+        text-align: center;
+        grid-column: 2 / 3;
+    }
+
+    .simple {
+        grid-column: 2 / 3;
+    }
+
+    .simple tbody tr td {
+        height: 100%;
+    }
 }
