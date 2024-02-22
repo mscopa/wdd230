@@ -48,7 +48,7 @@
             </fieldset>
             <fieldset>
                 <legend>Company</legend>
-                <label for="title">Title or Position: <input type="text" name="title" id="title" pattern=""></label>
+                <label for="title">Title or Position: <input type="text" name="title" id="title"></label>
                 <label for="organization">Business/organization's name: <input type="text" name="organization" id="organization"></label>
                 <label for="phone">Business/organization's description: <textarea name="description" id="description" cols="60" rows="10"></textarea></label>
                 <label for="membership">Membership Level
@@ -62,9 +62,9 @@
                 </label>
                 <input type="submit" value="Join the Chamber">
             </fieldset>
-            <label for="timestamp"><input type="hidden" name="timestamp" id="lastModified"></label>
+            <label><input type="hidden" name="timestamp" id="lastModified"></label>
         </form>
-        <table>
+        <table class="memberships">
             <caption>Membership Level Comparison</caption>
             <thead>
                 <tr>

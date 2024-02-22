@@ -78,7 +78,7 @@
 
     caption {
         caption-side: bottom;
-        color: #7067cf;
+        color: #000;
     }
     
     tr th {
@@ -92,7 +92,7 @@
 
     th, td {
         width: 100%;
-        color: #7067cf;
+        color: #000;
         padding: 7px 15px;
         border: 1px solid #7067cf;
     }
@@ -104,7 +104,7 @@
     }
 
     th span.subtitle {
-        color: gray;
+        color: #f2f2f2;
     }
 
     /* DIRECTORY PAGE */
