@@ -32,7 +32,6 @@ form label input {
     border-radius: 4px;
     padding: .75rem;
     width: 100%;
-    max-width: 20rem;
     color: #555;
     background-color: rgba(0, 0, 0, 0.1);
 }
@@ -49,7 +48,6 @@ form input.submitBtn {
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
     width: 96%;
-    max-width: 20rem;
 }
 
 form label input:required {
@@ -58,6 +56,11 @@ form label input:required {
 
 form label input:required:valid {
     border-left: green solid 6px;
+}
+
+form input.submitBtn:hover {
+    cursor: pointer;
+    background-color: rgba(19, 17, 17);
 }
 
 @media only screen and (min-width : 480px) {
